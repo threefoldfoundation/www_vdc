@@ -17,7 +17,7 @@ module.exports = {
     github: process.env.URL_GITHUB || false,
     nav: {
       links: [
-        { path: '/docs/', title: 'VDC' }
+        { path: '/docs/', title: '' }
       ]
     },
     sidebar: [
@@ -33,9 +33,15 @@ module.exports = {
             ]
           },
           {
-            title: 'Section2',
+            title: 'Kubernetes',
             items: [
-              '/docs/newfile1/',
+              '/docs/k3s/',
+            ]
+          },
+          {
+            title: 'S3 Storage',
+            items: [
+              '/docs/s3storage/',
             ]
           }
         ]
