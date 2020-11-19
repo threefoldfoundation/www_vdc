@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'TFVDC',
+  siteName: 'TF',
   icon: {
     favicon: './src/assets/favicon.png',
     touchicon: './src/assets/favicon.png'
@@ -17,7 +17,7 @@ module.exports = {
     github: process.env.URL_GITHUB || false,
     nav: {
       links: [
-        { path: '/docs/', title: '' }
+        { path: '/docs/', title: 'VDC' }
       ]
     },
     sidebar: [
