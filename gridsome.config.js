@@ -43,7 +43,15 @@ module.exports = {
               '/docs/start-remove/',
               '/docs/start-pay/',
               '/docs/start-manage/',
-              '/docs/start-upgrade',
+              '/docs/start-upgrade/',
+            ]
+          },
+          {
+            title: 'Kubernetes',
+            items: [
+              '/docs/k8s-deploy/',
+              '/docs/k8s-upload/',
+              '/docs/k8s-monitor/',
             ]
           },
         ]
