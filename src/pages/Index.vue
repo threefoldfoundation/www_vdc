@@ -12,7 +12,8 @@
           Your Private Scalable Cloud on the ThreeFold Grid
         </h1>
         <p class="text-xl font-medium text-center">
-          TF VPDC comes with Intuitive Admin Panel and Competitive Pricing.
+          Combine the agility of cloud with security of on-premise data centers. In any scale. <br>
+          Comes with an Intuitive Admin Panel and Competitive Pricing.
         </p>
 
         <div class="flex justify-center mt-8">
@@ -40,7 +41,7 @@
             Location Freedom
           </h3>
           <p class="text-lg text-left">
-            Build your private data center on more than 20 locations Worldwide.
+            Build your private data center where you need it, anywhere in the world. 
           </p>
         </div>
 
@@ -50,17 +51,17 @@
             Ultra Secure
           </h3>
           <p class="text-lg text-left">
-            Fully private, thanks to smart contract by IT system, powered by ThreeFold.
+            Privacy by design, thanks to networking and storage security built into the OS, and smart contract for IT disabling hackers to interfere.
           </p>
         </div>
 
         <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
           <MoonIcon size="3x" class="mb-6 text-ui-primary" />
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
-            Easy and Fast
+            Compatible with IT standards
           </h3>
           <p class="text-lg text-left">
-            One-click deployment with world class support.
+            Benefit from cloud agility through one-click deployment of containers, Kubernetes clusters and dispersed S3 storage on the Threefold Grid.
           </p>
         </div>
       </div>
@@ -125,3 +126,4 @@ export default {
   margin-right: 1rem;
 }
 </style>
+

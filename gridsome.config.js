@@ -17,7 +17,7 @@ module.exports = {
     github: process.env.URL_GITHUB || false,
     nav: {
       links: [
-        { path: '/docs/', title: 'VDC' }
+        { path: '/docs/', title: '' }
       ]
     },
     sidebar: [
@@ -25,19 +25,35 @@ module.exports = {
         name: 'docs',
         sections: [
           {
-            title: 'Getting Started',
+            title: 'Product Overview',
             items: [
               '/docs/',
-              '/docs/why-vdc/',
-              '/docs/how-vdc/',
+              '/docs/overview-why/',
+              '/docs/overview-secure/',
+              '/docs/overview-decentralized/',
+              '/docs/overview-independent/',
+              '/docs/overview-compatible/',
             ]
           },
           {
-            title: 'Section2',
+            title: 'Getting Started',
             items: [
-              '/docs/newfile1/',
+              '/docs/start-how/',
+              '/docs/start-add/',
+              '/docs/start-remove/',
+              '/docs/start-pay/',
+              '/docs/start-manage/',
+              '/docs/start-upgrade/',
             ]
-          }
+          },
+          {
+            title: 'Kubernetes',
+            items: [
+              '/docs/k8s-deploy/',
+              '/docs/k8s-upload/',
+              '/docs/k8s-monitor/',
+            ]
+          },
         ]
       }
     ]

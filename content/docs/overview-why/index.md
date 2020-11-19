@@ -2,7 +2,9 @@
 description: ''
 sidebar: 'docs'
 prev: '/docs/'
-next: '/docs/how-vdc/'
+next: '/docs/overview-secure/'
 ---
 
-# Why TF VDC?
+# Why use TF VDC?
+
+## tbd
