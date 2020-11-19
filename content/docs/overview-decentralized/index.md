@@ -6,3 +6,5 @@ next: '/docs/overview-independent'
 ---
 
 # Decentralized VDC
+
+## tbd
