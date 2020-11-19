@@ -1,11 +1,11 @@
 ---
 description: ''
 sidebar: 'docs'
-prev: '/docs/'
-next: '/docs/how-vdc/'
+prev: '/docs/overview-why'
+next: '/docs/overview-decentralized/'
 ---
 
-# Why is ThreeFold VDC so secure?
+# Why is TF VDC so secure?
 
 ## Running on an OS with no hacking surface
 

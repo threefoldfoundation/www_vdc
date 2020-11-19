@@ -1,10 +1,10 @@
 ---
 description: ''
 sidebar: 'docs'
-next: '/docs/why-vdc/'
+next: '/docs/overview-secure/'
 ---
 
-# What Is ThreeFold Virtual Data Center ?
+# What Is TF VDC ?
 
 ThreeFold has created the largest active peer-to-peer cloud on the planet, which can be used to run any Linux IT workload. 
 

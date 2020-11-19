@@ -1,17 +1,26 @@
 ---
 description: ''
 sidebar: 'docs'
-next: '/docs/'
-prev: '/docs/why-vdc/'
+next: '/docs/start-upgrade/'
+prev: '/docs/k8s-upload/'
 ---
 
-# How to use the ThreeFold VDC
+# Deploy K8s Cluster
 
 ## First, visit the [ThreeFold VDC Marketplace](https://vdc-mkt.threefold.io)
 
-- You'll see the option to create your Virtual Data Center.
-- Simply choose the option you want to launch from the menu.
-- You'll need to log in through 3Bot Connect, an authenticator for the ThreeFold Now ecosystem.
+- This deployment creates the K3S Lightweight Kubernetes implementation in Zero-OS
+- K3S is full conformant production-ready Kuberrnetes distribution with the following changes:   
+   - It is packaged as a single binary
+   - It adds support to sqlite3 as default storage. Etcd3, MySQL and Postgres are also supported
+   - It wraps Kubernetes and other components in a single, simple launcher
+   - It is secure by default with reasonable defa&ults for lightweight environments
+   -  It eliminates the need to expose a port on Kubernetes worker nodes fopr the kubelet API by exposing this API to the Kubernetes control plane nodes over a websockert tunnel. 
+   
+   More info can be found [here](https://github.com/rancher/k3s)
+   
+   
+   - You'll need to log in through 3Bot Connect, an authenticator for the ThreeFold Now ecosystem.
 - You can find more on ThreeFold Connect [here](https://manual.threefold.io/#/3botconnect_install).
 
 ## Next, use the guided setup to create your private VDC
@@ -29,3 +38,4 @@ prev: '/docs/why-vdc/'
 *Please forgive any instability you might encounter while our developers continue to work to bring you the best solutions possible and keep in mind the forum (linked directly above) is there for you to bring questions or report any issues.*
 
 *As we are operating in demo mode, your deployments will be automatically be cancelled after three hours once you have had a chance to see what is possible.*
+

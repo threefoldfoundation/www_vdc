@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'TF VDC',
+  siteName: 'TFVDC',
   icon: {
     favicon: './src/assets/favicon.png',
     touchicon: './src/assets/favicon.png'
@@ -25,11 +25,36 @@ module.exports = {
         name: 'docs',
         sections: [
           {
-            title: 'Getting Started',
+            title: 'Product Overview',
             items: [
               '/docs/',
               '/docs/why-vdc/',
-              '/docs/how-vdc/',
+              '/docs/overview-why/',
+              '/docs/overview-secure/',
+              '/docs/overview-decentralized/',
+              '/docs/overview-independent/',
+              '/docs/overview-compatible/',
+            ]
+          },
+          {
+            title: 'Getting Started',
+            items: [
+              '/docs/',
+              '/docs/start-how/',
+              '/docs/start-add/',
+              '/docs/start-remove/',
+              '/docs/start-pay/',
+              '/docs/start-manage/',
+              '/docs/start-upgrade',
+            ]
+          },
+          {
+            title: 'Kubernetes',
+            items: [
+              '/docs/',
+              '/docs/k8s-deploy',
+              '/docs/k8s-upload/',
+              '/docs/k8s-monitor/',
             ]
           },
         ]
