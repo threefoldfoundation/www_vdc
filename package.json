@@ -1,5 +1,5 @@
 {
-  "name": "www_vdc",
+  "name": "www_vpdc",
   "private": true,
   "scripts": {
     "build": "gridsome build",
