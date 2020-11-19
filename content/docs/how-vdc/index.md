@@ -1,8 +1,8 @@
 ---
 description: ''
 sidebar: 'docs'
-next: '/docs/tfgrid/'
-prev: '/docs/why-threefold-vdc/'
+next: '/docs/'
+prev: '/docs/why-vdc/'
 ---
 
 # How to use the ThreeFold VDC
