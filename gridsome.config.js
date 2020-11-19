@@ -28,8 +28,22 @@ module.exports = {
             title: 'Product Overview',
             items: [
               '/docs/',
-              '/docs/why-vdc/',
               '/docs/overview-why/',
+              '/docs/overview-secure/',
+              '/docs/overview-decentralized/',
+              '/docs/overview-independent/',
+              '/docs/overview-compatible/',
+            ]
+          },
+          {
+            title: 'Getting Started',
+            items: [
+              '/docs/start-how/',
+              '/docs/start-add/',
+              '/docs/start-remove/',
+              '/docs/start-pay/',
+              '/docs/start-manage/',
+              '/docs/start-upgrade',
             ]
           },
         ]
