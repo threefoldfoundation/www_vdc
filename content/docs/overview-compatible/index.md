@@ -1,8 +1,8 @@
 ---
 description: ''
 sidebar: 'docs'
-prev: '/docs/overview-independent'
-next: '/docs/start-how'
+prev: '/docs/overview-independent/'
+next: '/docs/start-how/'
 ---
 
 # IT-Standard Compatibility

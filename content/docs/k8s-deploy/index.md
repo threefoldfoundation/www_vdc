@@ -1,8 +1,8 @@
 ---
 description: ''
 sidebar: 'docs'
-next: '/docs/start-upgrade/'
-prev: '/docs/k8s-upload/'
+prev: '/docs/start-upgrade/'
+next: '/docs/k8s-upload/'
 ---
 
 # Deploy K8s Cluster

@@ -1,8 +1,8 @@
 ---
 description: ''
 sidebar: 'docs'
-next: '/docs/overview-compatible'
-prev: '/docs/start-add/'
+prev: '/docs/overview-compatible/'
+next: '/docs/start-add/'
 ---
 
 # How to use TF VDC

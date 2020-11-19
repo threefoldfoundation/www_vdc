@@ -1,8 +1,8 @@
 ---
 description: ''
 sidebar: 'docs'
-prev: '/docs/start-pay'
-next: '/docs/start-upgrade'
+prev: '/docs/start-pay/'
+next: '/docs/start-upgrade/'
 ---
 
 # Manage Your Storage 

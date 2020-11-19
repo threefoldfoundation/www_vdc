@@ -1,7 +1,7 @@
 ---
 description: ''
 sidebar: 'docs'
-prev: '/docs/overview-why'
+prev: '/docs/overview-why/'
 next: '/docs/overview-decentralized/'
 ---
 

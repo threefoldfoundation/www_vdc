@@ -1,7 +1,7 @@
 ---
 description: ''
 sidebar: 'docs'
-prev: '/docs/k8s-upload'
+prev: '/docs/k8s-upload/'
 next: '/docs/'
 ---
 
