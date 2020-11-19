@@ -6,3 +6,5 @@ next: '/docs/start-network'
 ---
 
 # Remove a VDC
+
+## tbd

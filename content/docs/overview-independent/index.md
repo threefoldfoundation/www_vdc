@@ -6,3 +6,5 @@ next: '/docs/overview-compatible'
 ---
 
 # Location-independent VDC
+
+## tbd
