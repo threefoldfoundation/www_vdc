@@ -7,4 +7,4 @@ next: '/docs/overview-compatible/'
 
 # Location-independent VDC
 
-## tbd
+< ... maybe to be deleted, included in the Why >
