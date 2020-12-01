@@ -7,4 +7,4 @@ next: '/docs/start-remove/'
 
 # Add a VDC
 
-## tbd
+< ... manual with screenshots ... >
