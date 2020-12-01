@@ -32,6 +32,21 @@ Orchestration through Kubernetes provides you with extra services without effort
 
 If you don't have enough capacity available to run your application, rules can be created in Kubernetes to allocate more resources. 
 
-## Benefit from security of On-Premise Data Center
+## Benefit from Security and Locality of an On-Premise Data Center
 
-Many organisations don't dare (yet) to benefit from this cloud agility, because they see also a major drawback. By running applications in the cloud, also the data is hosted on this cloud infrastructure. They consider the architecture more vulnerable as they are no longer in full control of keeping the data secure from external intrusion and hacking. 
+Many organisations don't dare (yet) to benefit from this cloud agility, because they see also a major drawback. By running applications in the cloud, also the data is hosted on this cloud infrastructure. They consider the architecture more vulnerable as they are no longer in full control of keeping the data secure from external intrusion and hacking. The question is also about responsibility in case a hacking occurs. 
+
+Also, an on-premise data center is located physically nearby. Organisations might not want to host their application on cloud infrastructure far away, but run it on machines that are close to them or to their customers, for a few reasons: 
+- Lower latencies can be expected 
+- They also might want to have the infrastructure available in their local jurisdiction for legal reasons 
+
+The Threefold Grid solves these 2 issues. 
+
+### Local capacity
+
+Zero-OS, the operating system that runs on Threefold Grid hardware infrastructure, is available on hardware in any form factor, and has autonomous tooling built around it. 
+Consequence of this is that it can be installed outside of big hyperscale datacenters, hereby also reducing substantially the investment cost to create a data center locally. 
+
+### Reduced hacking surface 
+
+Many elements have been built into the technology to reduce the hacking surface around an application. See the security overview in this wiki. 
