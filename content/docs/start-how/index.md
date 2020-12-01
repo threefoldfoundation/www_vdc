@@ -7,7 +7,7 @@ next: '/docs/start-add/'
 
 # How to use TF VDC
 
-## First, visit the [ThreeFold VDC Marketplace](https://vdc-mkt.threefold.io)
+## First, visit the [ThreeFold VDC Deployment website](https://deploy.vdc.threefold.io)
 
 - You'll see the option to create your Virtual Data Center.
 - Simply choose the option you want to launch from the menu.
