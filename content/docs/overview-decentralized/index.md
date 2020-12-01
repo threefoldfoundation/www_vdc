@@ -7,4 +7,4 @@ next: '/docs/overview-independent/'
 
 # Decentralized VDC
 
-## tbd
+< ... maybe to be deleted, included in the Why ... >
