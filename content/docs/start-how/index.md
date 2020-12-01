@@ -16,7 +16,9 @@ next: '/docs/start-add/'
 
 ## Next, use the guided setup to create your private VDC
 
-- Both K8S and S3 storage have their own flow – actions in order to deploy your own instance on top of the ThreeFold Grid.
+- Options are there to reserve a new VDC in different sizes, delete it or extend with extra K8S clusters or in time.
+- VDC comes with options for monitoring (using Grafana and Prometheus tooling).
+- A wallet can be configured within the deployment website, enabling easy payment. 
 - If you're feeling lost, each live tool has a tutorial on its page here on the wiki.
 
 ## Where to ask questions
