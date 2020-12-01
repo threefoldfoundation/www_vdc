@@ -9,7 +9,7 @@ next: '/docs/start-manage/'
 
 ## Price
 
-A VDC comes in different shapes. The price is expressed here in EUR. The equivalent amount in TFT will be billed. 
+A VDC comes in different shapes. The price of the monthly subscription fees is expressed here in EUR. The equivalent amount in TFT will be billed. 
 
 - 30 EUR per month for 3TB S3 Storage, a Network Gateway, Monitoring, a Kubernetes Controller and 1 kubernetes node (small)
 - 60 EUR per month for 10TB S3 storage, a Network Gateway, Monitoring, a Kubernetes Controller and 2 kubernetes node (mid)
