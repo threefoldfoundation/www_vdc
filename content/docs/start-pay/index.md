@@ -24,4 +24,5 @@ For additional Kubernetes node, following prices apply:
 
 ## Billing
 
-
+A user prepays the setup of his VDC to a VDC provider, according to the above prices. 
+Once paid, provisioning of hardware for K8S clusters can start. 
