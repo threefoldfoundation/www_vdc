@@ -5,6 +5,6 @@ prev: '/docs/overview-secure/'
 next: '/docs/overview-independent/'
 ---
 
-# Decentralized VDC
+# Decentralized eVDC
 
 < ... maybe to be deleted, included in the Why ... >
