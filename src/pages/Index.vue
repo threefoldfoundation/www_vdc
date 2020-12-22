@@ -5,7 +5,7 @@
         <div class="flex flex-col items-center mb-2 text-ui-primary">
           <Logo :width="80" />
           <h2 class="text-3xl text-6xl font-black tracking-tighter border-none">
-            ThreeFold VDC
+            ThreeFold eVDC
           </h2>
         </div>
         <h1 class="text-4xl text-center lg:text-5xl">
@@ -61,7 +61,7 @@
             Compatible with IT standards
           </h3>
           <p class="text-lg text-left">
-            Benefit from cloud agility through one-click deployment of containers, Kubernetes clusters and dispersed S3 storage on the Threefold Grid.
+            Benefit from cloud agility through one-click deployment of containers, Kubernetes clusters and dispersed storage in any file system (S3 but also others) on the Threefold Grid.
           </p>
         </div>
       </div>
