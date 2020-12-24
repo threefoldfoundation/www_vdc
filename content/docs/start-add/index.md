@@ -17,6 +17,7 @@ Only limited information is needed: a name, a secret password, and the size of y
 
 Now the VDC is being prepared to be used by you. 
 Full deployment can start after payment.
+The amount to be paid is calculated to cover the capacity for the selected VDC size for a period of 1 month. 
 
 ![](./img/02_vdc_payment2.png)
 
