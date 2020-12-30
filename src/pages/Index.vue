@@ -14,6 +14,8 @@
         <p class="text-xl font-medium text-center">
           Combine the agility of cloud with security of on-premise data centers. In any scale. <br>
           Comes with an Intuitive Admin Panel and Competitive Pricing.
+          
+          Now on testnet. Soon on mainnet. 
         </p>
 
         <div class="flex justify-center mt-8">
