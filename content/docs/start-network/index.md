@@ -2,7 +2,7 @@
 description: ''
 sidebar: 'docs'
 prev: '/docs/start-pay/'
-next: '/docs/start-deploy/'
+next: '/docs/k8s-deploy/'
 ---
 
 # Expose to network
