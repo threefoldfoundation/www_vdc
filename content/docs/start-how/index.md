@@ -7,12 +7,16 @@ next: '/docs/start-add/'
 
 # How to use TF VDC
 
-## First, visit the [ThreeFold VDC Deployment website](https://deploy.vdc.threefold.io)
+## First, visit the ThreeFold eVDC Deployer 
+
+[Mainnet vdc](https://vdc.grid.tf) (coming soon)
+
+[Testnet vdc](https://vdc.testnet.grid.tf)
 
 - You'll see the option to create your Virtual Data Center.
 - Simply choose the option you want to launch from the menu.
 - You'll need to log in through 3Bot Connect, an authenticator for the ThreeFold Now ecosystem.
-- You can find more on ThreeFold Connect [here](https://manual.threefold.io/#/3botconnect_install).
+- You can find more on ThreeFold Connect [here](https://manual.threefold.io/#/threefold_connect_install).
 
 ## Next, use the guided setup to create your private VDC
 
