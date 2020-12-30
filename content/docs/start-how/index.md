@@ -9,7 +9,7 @@ next: '/docs/start-add/'
 
 ## First, visit the ThreeFold eVDC Deployer 
 
-[Mainnet vdc](https://vdc.grid.tf)
+[Mainnet vdc](https://vdc.grid.tf) (coming soon)
 
 [Testnet vdc](https://vdc.testnet.grid.tf)
 
