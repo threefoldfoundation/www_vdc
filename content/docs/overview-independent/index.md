@@ -5,7 +5,7 @@ prev: '/docs/overview-decentralized/'
 next: '/docs/overview-compatible/'
 ---
 
-# Location independent Edge VDC
+# A VDC at the edge: local and affordable everywhere
 
 80% of the data currently resides in hyperscale datacenters, at a central location, and compute power is also centralized in the same location. The trend is shifting however: it is expected that by 2025, most of the data will have moved to where it is used. Local storage of data and computation at the edge will be required for smart cities, self-driving cars, 5G, IoT, Virtual Reality and many more use cases where quick response times are critical. 
 
