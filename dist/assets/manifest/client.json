@@ -2,7 +2,7 @@
   "publicPath": "/",
   "all": [
     "assets/css/0.styles.92970e34.css",
-    "assets/js/app.f79df91d.js",
+    "assets/js/app.8aa3e919.js",
     "assets/js/page--src--pages--404-vue.83949fe8.js",
     "assets/js/page--src--pages--index-vue.5ee9e535.js",
     "assets/js/page--src--templates--markdown-page-vue.3c2d99c6.js",
@@ -10,7 +10,7 @@
   ],
   "initial": [
     "assets/css/0.styles.92970e34.css",
-    "assets/js/app.f79df91d.js"
+    "assets/js/app.8aa3e919.js"
   ],
   "async": [
     "assets/js/page--src--pages--404-vue.83949fe8.js",
