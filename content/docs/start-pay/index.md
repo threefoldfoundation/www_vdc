@@ -1,8 +1,8 @@
 ---
 description: ''
 sidebar: 'docs'
-prev: '/docs/start-network/'
-next: '/docs/start-manage/'
+prev: '/docs/start-remove/'
+next: '/docs/start-network/'
 ---
 
 # Payment and Billing

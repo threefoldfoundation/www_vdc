@@ -1,10 +1,8 @@
 ---
 description: ''
 sidebar: 'docs'
-prev: '/docs/start-remove/'
-next: '/docs/start-pay/'
+prev: '/docs/start-pay/'
+next: '/docs/k8s-deploy/'
 ---
 
-# Add Network to a VDC
-
-## tbd
+# Expose to network
