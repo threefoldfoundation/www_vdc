@@ -5,9 +5,9 @@ prev: '/docs/overview-compatible/'
 next: '/docs/start-add/'
 ---
 
-# How to use TF VDC
+# How to use eVDC
 
-## First, visit the ThreeFold eVDC Deployer 
+## First, visit the eVDC Deployer 
 
 [Mainnet vdc](https://vdc.grid.tf) (coming soon)
 
