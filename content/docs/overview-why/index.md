@@ -43,11 +43,10 @@ Many organisations don't dare (yet) to benefit from this cloud agility, because 
 
 The Threefold Grid and the eVDC solution have an anwser to the challenges and create the ability for anyone to benefit from cloud agility. 
 
-### Local capacity
+### Local secure capacity
 
-Zero-OS, the operating system that runs on Threefold Grid hardware infrastructure, is available on hardware in any form factor, and has autonomous tooling built around it. 
-Consequence of this is that it can be installed outside of big hyperscale datacenters, hereby also reducing substantially the investment cost to create a data center locally. 
+The Tf Grid is designed to create capacity everywhere.  In remote places where a power socket meets network connectivity to well know places for IT infrastructure to exists local office building, private and public datacenters.  It is therefore possible to create cloud infrastructure local on premise that presents the same benefits as the large sclae cloud infrastructure out on the TF Grid.  Even better companies can BE their own internet (cloud infrastructure)
 
-### Reduced hacking surface 
+Zero-OS is the operating system that runs on Threefold Grid hardware infrastructure and is available on hardware in any form factor.  It is very easy to install, operates autonomous and stateless and has incredible security and privacy features.
 
-Many elements have been built into the technology to reduce the hacking surface around an application. See the security overview in this wiki. 
+Zero-OS is designed to enable server to become part of the ThreeFold grid everywhere (and owned by anyone). One key element to make this possible is to have an absolute minimal hacking surface on the physical server.  In the end servers will exist in many different locations, are owned by anywone.  So a key element to secure applications run on and data stored on these servers is that there is zero possibility for any human being to interact with these servers.  They do not have a login facility, they do not store and access credentials, they have no interface for people to interact in any possible way with these servers.
