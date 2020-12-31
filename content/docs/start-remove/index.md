@@ -2,9 +2,9 @@
 description: ''
 sidebar: 'docs'
 prev: '/docs/start-upgrade/'
-next: '/docs/start-pay/'
+next: '/docs/start-network/'
 ---
 
 # Remove a VDC
 
-## tbd
+Coming soon
