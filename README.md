@@ -3,17 +3,28 @@
 
 Created by @sasha-astiadi
 <br>
-Managed by @despiegk @sasha-astiadi @gmachtel @sacha96
+Managed by @sasha-astiadi @gmachtel @sacha96
 
-## How to run a development version locally
+### To Install
 
-### Install
+copy the folling in your terminal
 
-- Ubuntu :  `./install.sh`
-- MacosX : `./install_mac.sh`
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/threefoldfoundation/www_threefold_cloud/master/tools/install.sh)"
+```
 
-### Run
-- Quick Run : `./run`
+> remark: if you want to install all webtools at once go to: https://github.com/threefoldfoundation/websites and follow instructions there
+
+### To Run
+
+```
+cd ~/code/github/threefoldfoundation/www_threefold_cloud
+sh run.sh
+```
+
+this will start a local dev server at http://localhost:8080
+
+to now see your website, copy ```http://localhost:8080``` in your browser
 
 ### build a static website (production only)
 
