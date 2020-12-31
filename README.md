@@ -27,7 +27,7 @@ Run `./build.sh`
 ## Editing
 
 - Always use `-` instead of `_` in naming files and directories 
-- Create a new folder for each item you want to add to `tfnow` with the naming convention in the previous point
+- Create a new folder for each item you want to add to `www_vdc` with the naming convention in the previous point
 - inside each directory put
     - `index.md` contains markdown
     - `img` directory with images for that item
