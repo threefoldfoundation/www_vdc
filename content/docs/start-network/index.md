@@ -1,8 +1,10 @@
 ---
 description: ''
 sidebar: 'docs'
-prev: '/docs/start-pay/'
-next: '/docs/k8s-deploy/'
+prev: '/docs/start-remove/'
+next: '/docs/start-pay/'
 ---
 
-# Expose to network
+# Update the network
+
+Coming soon
