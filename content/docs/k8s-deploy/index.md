@@ -1,7 +1,7 @@
 ---
 description: ''
 sidebar: 'docs'
-prev: '/docs/start-upgrade/'
+prev: '/docs/start-pay/'
 next: '/docs/k8s-upload/'
 ---
 
