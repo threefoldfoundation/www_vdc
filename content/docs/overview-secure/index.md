@@ -36,3 +36,4 @@ Deployment of IT workload using a so-called “Smart Contract for IT” makes th
 
 Access to your virtual data center happen through Threefold connect app. This app is a fully decentralized authentication mechanism, based on PKI technology. 
 
+![](./img/vdc_secure.png)

@@ -7,9 +7,13 @@ next: '/docs/overview-secure/'
 
 # Why use TF VDC?
 
+![](./img/vdc_node.png)
+
 ## Benefit from Agility of Cloud
 
-TF VDC allows you to create a Virtual Data Center out of the box, with tooling that is widespread in the developers' community. Containers and the orchestration of it through Kubernetes offers the following benefits: 
+TF VDC allows you to create a Virtual Data Center woth a few clicks and some information that needs to be provided.  It comes with tooling that is well understood in most developers' communities. 
+
+Docker containers and the orchestration of these by Kubernetes framework offers the following benefits: 
 
 Containers: 
 - Provide a very agile application creation and deployment, with an easy and efficient creation of the container image compared to VMs
@@ -22,7 +26,7 @@ Containers:
 - It encapsulates the application in a way that behaviour at runtime becomes predictable
 - An efficient use of hardware resources is possible
 
-Orchestration through Kubernetes provides you with extra services without effort: 
+Orchestration through Kubernetes provides you with a lot of fucntionality without much effort: 
 - Easy set up and manage the execution of containers and the interaction between containers
 - Services to facilitate access using DNS or using IP address
 - Automated load balancing in case of high traffic
@@ -34,19 +38,17 @@ If you don't have enough capacity available to run your application, rules can b
 
 ## Benefit from Security and Locality of an On-Premise Data Center
 
-Many organisations don't dare (yet) to benefit from this cloud agility, because they see also a major drawback. By running applications in the cloud, also the data is hosted on this cloud infrastructure. They consider the architecture more vulnerable as they are no longer in full control of keeping the data secure from external intrusion and hacking. The question is also about responsibility in case a hacking occurs. 
+Many organisations don't dare (yet) to benefit from this cloud agility, because they also see major drawbacks. Considerable drawbacks are:
+- Running applications in the cloud they also have to commit their data to these cloud providers and this prevents these companies from controlling and securing their data in an understood manner.  
+- These companies consider cloud architectures more vulnerable to data intrusion, data theft, data ransom and other malicious pratises because a cloud provider by design is a multi tennnant setup.  Many companies and people share the same infrastructure (servers, network, access portals etc.).  Each of these shared multi tennant installations might bring secutity and privacy risks.
+- Last but not least: who is responsibility in case data loss, data theft, or any other type of hacking occurs?
 
-Also, an on-premise data center is located physically nearby. Organisations might not want to host their application on cloud infrastructure far away, but run it on machines that are close to them or to their customers, for a few reasons: 
-- Lower latencies can be expected 
-- They also might want to have the infrastructure available in their local jurisdiction for legal reasons 
+The Threefold Grid and the eVDC solution have an anwser to the challenges and create the ability for anyone to benefit from cloud agility. 
 
-The Threefold Grid solves these 2 issues. 
+### Local secure capacity
 
-### Local capacity
+The Tf Grid is designed to create capacity everywhere.  In remote places where a power socket meets network connectivity to well know places for IT infrastructure to exists local office building, private and public datacenters.  It is therefore possible to create cloud infrastructure local on premise that presents the same benefits as the large sclae cloud infrastructure out on the TF Grid.  Even better companies can BE their own internet (cloud infrastructure)
 
-Zero-OS, the operating system that runs on Threefold Grid hardware infrastructure, is available on hardware in any form factor, and has autonomous tooling built around it. 
-Consequence of this is that it can be installed outside of big hyperscale datacenters, hereby also reducing substantially the investment cost to create a data center locally. 
+Zero-OS is the operating system that runs on Threefold Grid hardware infrastructure and is available on hardware in any form factor.  It is very easy to install, operates autonomous and stateless and has incredible security and privacy features.
 
-### Reduced hacking surface 
-
-Many elements have been built into the technology to reduce the hacking surface around an application. See the security overview in this wiki. 
+Zero-OS is designed to enable server to become part of the ThreeFold grid everywhere (and owned by anyone). One key element to make this possible is to have an absolute minimal hacking surface on the physical server.  In the end servers will exist in many different locations, are owned by anywone.  So a key element to secure applications run on and data stored on these servers is that there is zero possibility for any human being to interact with these servers.  They do not have a login facility, they do not store and access credentials, they have no interface for people to interact in any possible way with these servers.

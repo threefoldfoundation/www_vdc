@@ -40,10 +40,11 @@ module.exports = {
             items: [
               '/docs/start-how/',
               '/docs/start-add/',
-              '/docs/start-remove/',
-              '/docs/start-pay/',
               '/docs/start-manage/',
               '/docs/start-upgrade/',
+              '/docs/start-remove/',
+              '/docs/start-network/',
+              '/docs/start-pay/',
             ]
           },
           {
