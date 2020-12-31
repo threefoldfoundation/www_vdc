@@ -2,7 +2,7 @@
 description: ''
 sidebar: 'docs'
 prev: '/docs/start-remove/'
-next: '/docs/start-network/'
+next: '/docs/k8s-deploy/'
 ---
 
 # Payment and Billing
