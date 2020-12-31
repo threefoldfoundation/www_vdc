@@ -1,10 +1,10 @@
 ---
 description: ''
 sidebar: 'docs'
-prev: '/docs/start-add/'
+prev: '/docs/start-upgrade/'
 next: '/docs/start-network/'
 ---
 
 # Remove a VDC
 
-## tbd
+Coming soon

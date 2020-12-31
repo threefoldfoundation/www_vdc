@@ -4,13 +4,13 @@ sidebar: 'docs'
 next: '/docs/overview-why/'
 ---
 
-# What Is TF VDC ?
+# What Is TF eVDC ?
 
-ThreeFold has created the largest active peer-to-peer cloud on the planet, which can be used to run any Linux IT workload. 
+eVDC stand for "edge Virtual DataCenter" which is a solution that exists on the ThreeFold grid. ThreeFold has created the largest active peer-to-peer cloud (the TF Grid) on the planet, which runs any Unix IT workload. 
 
-The VDC is an environment to deploy these workloads in a very easy way, keeping the most popular tooling available in the market to run workloads. It offers the tooling for : 
-- Deploying a containerized Linux IT workload on the grid
-- Setting up a Kubernetes cluster, able to orchestrate and manage containers running on the Threefold grid (and even containers hosted on external clouds in a meshed setup)
-- Storing data in a very secure way, yet compatible with the S3 standard. 
+The eVDC is a virtual data center (out of the box) that creates easy and industry standard ways to deploy, scale and manage Unix workloads.  It present  the most popular toolING available in the market to run applications. 
 
-It offers the capacity connected to the Threefold Grid and allows you to easily connect the capacity that fits with your needs, in terms of storage, compute power and network connectivity. 
+The eVDC offers the tooling for : 
+- Deploying containerized Unix IT applications on the grid
+- Setting up Kubernetes clusters that able to orchestrate and manage containers running on the Threefold grid and containers hosted on external clouds (hybrid cloud management) 
+- Storing data in a very secure way and presenting this storage facility in the most used and understood interface: a file system 

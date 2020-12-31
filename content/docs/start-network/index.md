@@ -5,6 +5,6 @@ prev: '/docs/start-remove/'
 next: '/docs/start-pay/'
 ---
 
-# Add Network to a VDC
+# Update the network
 
-## tbd
+Coming soon
