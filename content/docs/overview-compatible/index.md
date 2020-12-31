@@ -14,5 +14,3 @@ On the TF grid a Kubernetes orchestrator can be deployed out of the box. We have
 - For storage, any file system will be supported 
 
 The process for deploying workloads has been made easy as quite a lot of Helm templates have been made available, ready for usage on the grid. 
-
-<img src="./img/docker.png" alt="drawing" height="100"/> <img src="./img/kubernetes.png" alt="drawing" height="100"/> <img src="./img/helm-logo.jpg" alt="drawing" height="100"/>
