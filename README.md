@@ -10,7 +10,7 @@ Managed by @sasha-astiadi @gmachtel @sacha96
 copy the folling in your terminal
 
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/threefoldfoundation/www_threefold_cloud/master/tools/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/threefoldfoundation/www_vdc/development/tools/install.sh)"
 ```
 
 > remark: if you want to install all webtools at once go to: https://github.com/threefoldfoundation/websites and follow instructions there
