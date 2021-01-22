@@ -7,13 +7,13 @@ next: '/docs/start-remove/'
 
 # Upgrade VDC Capacity
 
-Your VDC can be upgraded also when it is up and running.
+Your VDC can also be upgraded when it is up and running.
 
 ## Extend a Kubernetes cluster
 
 A Kubernetes cluster can be extended with additional worker nodes, through a few steps.
 
-Click on the `Àdd Node`button.
+Click on the `Add Node` button.
 
 ![](./img/00_k8s_extension_add_node.png)
 
@@ -25,7 +25,7 @@ Select the size of the node (Small, Medium, Big).
 
  ![](./img/02_k8s_extension_public_ip.png)
 
- Choose the way to pay: with a new token transfer or using already transferred tokens (but this will shorten the time before the reservation will expire).
+ Choose the way to pay: with a new token transfer or using already transferred tokens (but this will shorten the time before your total reservation will expire).
 
  ![](./img/03_k8s_extension_payment_choice.png)
 

@@ -15,11 +15,11 @@ A list is shown of available VDCs, with a link to the VDC itself, or to manager 
 
 ![](./img/11_vdc_overview.png)
 
-Clicking on the url link of the VDC brings you to a login page. Log in using your Threefold Connect App.
+Clicking on the url link of the VDC brings you to a login page. Log in using your ThreeFold Connect App.
 
 ![](./img/21_vdc_portal_login.png)
 
-Before starting to run your VDC, a welcome screen is shown, as well as `Terms and conditions`. Please have a read and push `Àgree` before continuing.
+Before starting to run your VDC, a welcome screen is shown, as well as `Terms and conditions`. Please have a read and push `Agree` before continuing.
 
 ![](./img/22_vdc_portal_welcome.png)
 

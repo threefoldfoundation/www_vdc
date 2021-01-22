@@ -15,12 +15,12 @@ next: '/docs/start-add/'
 
 - You'll see the option to create your Virtual Data Center.
 - Simply choose the option you want to launch from the menu.
-- You'll need to log in through Threefold Connect, an authenticator for the full ThreeFold ecosystem.
+- You'll need to log in through ThreeFold Connect, an authenticator for the full ThreeFold ecosystem.
 - You can find more on ThreeFold Connect [here](https://manual.threefold.io/#/threefold_connect_install).
 
 ## Next, use the guided setup to create your private VDC
 
-- Options are there to reserve a new VDC in different sizes, delete it or extend with extra K8S clusters or in time.
+- Options are there to reserve a new VDC in different sizes, delete it or extend with extra K8s clusters or in time.
 - VDC comes with options for monitoring (using Grafana and Prometheus tooling).
 - A wallet can be configured within the deployment website, enabling easy payment. 
 - If you're feeling lost, each live tool has a tutorial on its page here on the wiki.

@@ -9,7 +9,7 @@ next: '/docs/k8s-deploy/'
 
 ## Price
 
-A eVDC comes in different shapes. The price of the monthly subscription fees is expressed here in EUR. The equivalent amount in TFT at a TFT price of 0.10 USD will be billed. 
+An eVDC comes in different sizes. The price of the monthly subscription fees is expressed here in EUR. The equivalent amount in TFT at a TFT price of 0.10 USD will be billed.
 
 - Silver: 10 EUR per month for 100GB S3 Storage, a Network Gateway, Monitoring, a Kubernetes Controller and 1 Kubernetes node (small)
 - Gold: 30 EUR per month for 3TB S3 Storage, a Network Gateway, Monitoring, a Kubernetes Controller and 1 Kubernetes node (mid)
@@ -19,7 +19,7 @@ A eVDC comes in different shapes. The price of the monthly subscription fees is 
 **Note:** Above pricing is for Mainnet. Testnet pricing will be 1/10 of the Mainnet pricing. Please take into consideration that Testnet is not meant for production. 
 
 ### Adding nodes
-For additional Kubernetes node, following prices apply:
+For additional Kubernetes nodes, the following prices apply:
 
 - 5 EUR for a small node: 1vcpu, 2 GB mem, 25 GB max storage
 - 10 EUR for a mid node: 2vcpu, 4 GB mem, 50 GB max storage
@@ -27,8 +27,8 @@ For additional Kubernetes node, following prices apply:
 
 ## Billing
 
-A user prepays the setup of his eVDC to a eVDC provider, according to the above prices. 
-Once paid, provisioning of hardware for K8S clusters can start. 
+A user prepays the setup of their eVDC to a eVDC provider, according to the above prices.
+Once paid, provisioning of hardware for K8s clusters can start. 
 
 ## How to buy TFT
 
