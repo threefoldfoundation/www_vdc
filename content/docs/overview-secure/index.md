@@ -9,27 +9,34 @@ next: '/docs/overview-decentralized/'
 
 ## Running on an OS with no hacking surface
 
-Zero-OS is the operating system that runs on the Threefold nodes. All weaknesses of an operating system with regard to hacking have been considered in the implementation of this peer-to-peer OS. 
-- It has no shell, meaning that farmers, i.e. owners of the capacity that hosts the OS and the workloads, have no access to the data residing nor the applications running on their hardware. 
-- The management of the grid and the workload running on it is not in the hands by humans, hereby excluding both human error and malicious hackers. Bots take over this role: we have defined the concept of a 3Bot as a human's virtual system administrator. How this exactly works can be read below in the deployment process security. 
+Zero-OS is the operating system that runs on the Threefold nodes. All weaknesses of an operating system with regards to hacking have been considered and eradicated in the implementation of this peer-to-peer OS. 
+- It has no shell, meaning that farmers, i.e. owners of the servers have no access to the data nor the applications running on their hardware. 
+- Management and workloads running on the grid are not in the hands of humans. This excludes human error and malicious hackers. Bots take over this role: we have bots that act as virtual system administrators.
 
 ## Network security
 
-- All networking in Zero-OS comes is set up as a private overlay network. All nodes have their own IPv6 address and are fully interconnected in the defined network. All traffic on the network is encrypted.  
-- The link to the outside world is managed through the web gateways. These web gateways filter out incoming traffic, only allowing external traffic that is accepted from inside. 
-- There is no TCP/IP traffic allowed coming from the outside. Data is picked up from the inside. 
+All networking setup in Zero-OS for application running in containers is done as private overlay peer-to-peer connections. All 3nodesthat are part of application architecture have their own IPv6 address.  All traffic between containers is encrypted.  
+
+The private networking between container is by default not connected to the outside world. Connections to the outside world is created by deploying a web gateway. These web gateways act as servers to the containers in the private network and forward traffic that needs to be sent to the outside network.  There will never be a direct connection from the outsinde to containers.
 
 ## Quantum-secure Storage 
 
-We have developed the service to have S3 storage split in an intelligent way into different shards, in a way that on one location, there is only part of the information stored in one place. Moreover, the data is described in a descriptive way so that a person aiming to hack into the low-level data (which is almost impossible in itself), will only find non-relevant information on this storage infrastructure. 
-The fact that no data shard can be created only accessing one location, makes the storage quantum proof: no compute power can ‘imagine’ what these missing data are. 
-More info on our dispersed storage mechanism can be found [here](https://manual.threefold.io/#/architecture_storage?id=dispersed-storage-architecture-design-philosophy). 
+3nodes with zero-OS running on it are storage generators.  zero-OS make all the internal disks available to any 3bot on the grid.  
 
-This secure storage has been implemented into Minio S3 storage offering, available on the Threefold Grid. 
+The storage architecture is build around the principle of using disks everwhere.  The difference between an archvie solutions and a performing storage solution is proximity between the used disks.  The closer together the disks (or disk slices) are more more performance can be achieved witht he storage solution.
+
+The storage architecture must have access to many disks (or disk slices) on which is can store data parts.  Data parts are created by an algorith that uses "_forward_ _error_ _correcting_" principles to create descriptions of data parts of an object that need to be stored.  These descriptions are _not_  _encrypted_ data parts but a mathematical description of that data part.  The original data object can only be retrieved if all pieces are available to the algorithm and it can solve the mathematical system.  
+
+The fact that it is a mathematical description of a data part and not encrypted data makes the storage solution quantum safe:  If one of the data parts is found (hacked) it does not allow a quantum computer to crack the encnyption used for that part as all data parts are needed to recreate the original objects.  Sufficient spread of these data parts make it impossible to get all data parts by hacking all 3nodes / disks used to store the data parts.
+
+
+ [here](https://manual.threefold.io/#/architecture_storage?id=dispersed-storage-architecture-design-philosophy). 
 
 ## Security in the deployment process
 
-Deployment of IT workload using a so-called “Smart Contract for IT” makes the deployment process resilient to human error and hacking. The system is self-driving and self-healing, therefore removing the human requirement for deploying and operating IT infrastructure and services. This represents a breakthrough in IT. 3Bot records all transactions within the blockchain database (BCDB), ensuring an immutable record of any workload and enables the self-healing functionality as any workload can easily be restored if/when needed.
+Deployment of IT workloads using a so-called “Smart Contract for IT” makes the deployment process resilient to human error and hacking. The system is self-driving and self-healing, removing the human elemeent for deploying and operating IT infrastructure and services. 
+
+This is a breakthrough in IT. 3Bot records all transactions within the blockchain database (BCDB), ensuring an immutable record of any workload and enables the self-healing functionality as any workload can easily be restored if/when needed.
 
 
 ## Fully decentralized access
