@@ -20,10 +20,7 @@ next: '/docs/start-add/'
 
 ## Next, use the guided setup to create your private VDC
 
-- Options are there to reserve a new VDC in different sizes, delete it or extend with extra K8S clusters or in time.
-- VDC comes with options for monitoring (using Grafana and Prometheus tooling).
-- A wallet can be configured within the deployment website, enabling easy payment. 
-- If you're feeling lost, each live tool has a tutorial on its page here on the wiki.
+Go to [__'eVDC' Section on ThreeFold Manual__](https://manual.threefold.io/#evdc) to read tutorials on how to set up your first eVDC, deploy and monitor workloads, marketplace solutions and many more.
 
 ## Where to ask questions
 
