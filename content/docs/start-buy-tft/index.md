@@ -1,9 +1,3 @@
----
-description: ''
-sidebar: 'docs'
-prev: '/docs/start-pay/'
-next: '/docs/start-network/'
----
 
 # How to buy TFT
 

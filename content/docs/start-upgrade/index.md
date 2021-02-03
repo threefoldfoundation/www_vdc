@@ -1,9 +1,4 @@
----
-description: ''
-sidebar: 'docs'
-prev: '/docs/start-manage/'
-next: '/docs/start-remove/'
----
+
 
 # Upgrade VDC Capacity
 

@@ -1,9 +1,3 @@
----
-description: ''
-sidebar: 'docs'
-prev: '/docs/start-add/'
-next: '/docs/start-upgrade/'
----
 
 # Manage your VDC
 
