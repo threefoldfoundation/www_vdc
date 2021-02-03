@@ -1,7 +1,7 @@
 ---
 description: ''
 sidebar: 'docs'
-prev: '/docs/start-remove/'
+prev: '/docs/start-how/'
 next: '/docs/k8s-deploy/'
 ---
 

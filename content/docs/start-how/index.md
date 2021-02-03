@@ -2,7 +2,7 @@
 description: ''
 sidebar: 'docs'
 prev: '/docs/overview-compatible/'
-next: '/docs/start-add/'
+next: '/docs/start-pay/'
 ---
 
 # How to use eVDC

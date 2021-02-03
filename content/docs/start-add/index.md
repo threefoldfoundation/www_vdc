@@ -1,9 +1,4 @@
----
-description: ''
-sidebar: 'docs'
-prev: '/docs/start-how/'
-next: '/docs/start-manage/'
----
+
 
 # Add a VDC
 
