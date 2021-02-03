@@ -3,7 +3,6 @@
     <div class="pt-8 md:pt-16">
       <div class="flex flex-col items-center">
         <div class="flex flex-col items-center mb-2 text-ui-primary">
-          <Logo :width="80" />
           <h2 class="text-3xl text-6xl font-black tracking-tighter border-none">
             ThreeFold eVDC
           </h2>
@@ -12,13 +11,12 @@
           Your Private Scalable Cloud on the ThreeFold Grid
         </h1>
         <p class="text-xl font-medium text-center">
-          Combine the agility of cloud with security of on-premise data centers. In any scale. <br>
+          Combine the agility of cloud with security of on-premise data centers.
+          In any scale. <br />
           Comes with an Intuitive Admin Panel and Competitive Pricing.
         </p>
-        <br>
-        <p>
-          Now on testnet. Soon on mainnet. 
-        </p>
+        <br />
+        <p>Now on testnet. Soon on mainnet.</p>
 
         <div class="flex justify-center mt-8">
           <g-link
@@ -33,50 +31,67 @@
         <p class="mt-8 text-center">
           <!-- Open Source. MIT License. <span class="border-b border-dashed border-ui-primary text-ui-primary">Make it your own</span>.-->
         </p>
-
       </div>
 
-      <div class="pt-8 mx-auto mt-8 border-t md:mt-16 md:pt-16 border-top border-ui-border max-w-screen-sm"></div>
+      <div
+        class="pt-8 mx-auto mt-8 border-t md:mt-16 md:pt-16 border-top border-ui-border max-w-screen-sm"
+      ></div>
 
       <div class="flex flex-wrap justify-center -mx-4">
-        <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
+        <div
+          class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3"
+        >
           <ZapIcon size="3x" class="mb-6 text-ui-primary" />
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
             Location Freedom
           </h3>
           <p class="text-lg text-left">
-            Build your private data center where you need it, anywhere in the world. 
+            Build your private data center where you need it, anywhere in the
+            world.
           </p>
         </div>
 
-        <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
+        <div
+          class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3"
+        >
           <SearchIcon size="3x" class="mb-6 text-ui-primary" />
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
             Ultra Secure
           </h3>
           <p class="text-lg text-left">
-            Privacy by design, thanks to networking and storage security built into the OS, and smart contract for IT disabling hackers to interfere.
+            Privacy by design, thanks to networking and storage security built
+            into the OS, and smart contract for IT disabling hackers to
+            interfere.
           </p>
         </div>
 
-        <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
+        <div
+          class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3"
+        >
           <MoonIcon size="3x" class="mb-6 text-ui-primary" />
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
             Compatible with IT standards
           </h3>
           <p class="text-lg text-left">
-            Benefit from cloud agility through one-click deployment of containers, Kubernetes clusters and dispersed storage in any file system (S3 but also others) on the Threefold Grid.
+            Benefit from cloud agility through one-click deployment of
+            containers, Kubernetes clusters and dispersed storage in any file
+            system (S3 but also others) on the Threefold Grid.
           </p>
         </div>
       </div>
-
     </div>
   </Layout>
 </template>
 
 <script>
-import Logo from '@/components/Logo';
-import { ArrowRightCircleIcon, ZapIcon, CodeIcon, MoonIcon, SearchIcon } from 'vue-feather-icons';
+import Logo from "@/components/Logo";
+import {
+  ArrowRightCircleIcon,
+  ZapIcon,
+  CodeIcon,
+  MoonIcon,
+  SearchIcon,
+} from "vue-feather-icons";
 
 export default {
   components: {
@@ -85,44 +100,44 @@ export default {
     ZapIcon,
     CodeIcon,
     MoonIcon,
-    SearchIcon
+    SearchIcon,
   },
 
   metaInfo() {
-    const title = 'ThreeFold Virtual Private Data Center';
-    const description = 'Your Private Scalable Cloud on the ThreeFold Grid.';
+    const title = "ThreeFold Virtual Private Data Center";
+    const description = "Your Private Scalable Cloud on the ThreeFold Grid.";
 
     return {
       title: title,
       meta: [
         {
-          name: 'description',
-          content: description
-        },
-        {
-          key: 'og:title',
-          name: 'og:title',
-          content: title,
-        },
-        {
-          key: 'twitter:title',
-          name: 'twitter:title',
-          content: title,
-        },
-        {
-          key: 'og:description',
-          name: 'og:description',
+          name: "description",
           content: description,
         },
         {
-          key: 'twitter:description',
-          name: 'twitter:description',
+          key: "og:title",
+          name: "og:title",
+          content: title,
+        },
+        {
+          key: "twitter:title",
+          name: "twitter:title",
+          content: title,
+        },
+        {
+          key: "og:description",
+          name: "og:description",
           content: description,
         },
-      ]
-    }
-  }
-}
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content: description,
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style>

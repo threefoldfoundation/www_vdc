@@ -7,6 +7,8 @@ next: '/docs/overview-secure/'
 
 # Why use TF VDC?
 
+![](./img/vdc_node.png)
+
 ## Benefit from Agility of Cloud
 
 TF VDC allows you to create a Virtual Data Center woth a few clicks and some information that needs to be provided.  It comes with tooling that is well understood in most developers' communities. 
